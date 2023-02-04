@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+//json이 아닌 text형태로 return을 주는 형태
 @WebServlet(name = "helloServlet", urlPatterns = "/hello-api-servlet")
 public class HelloServlet extends HttpServlet {
     private ObjectMapper objectMapper = new ObjectMapper();

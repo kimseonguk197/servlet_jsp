@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
+//get요청을 통해 데이터를 요청했을때 data를 json형태로 response
 @WebServlet(name = "helloApiResponse", urlPatterns = "/hello-api-response")
 public class HelloApiResponse extends HttpServlet {
     private ObjectMapper objectMapper = new ObjectMapper();

@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 
+// post요청을 툥해 데이터를 받는 경우
 @WebServlet(name = "helloApiRequest", urlPatterns = "/hello-api-request")
 public class HelloApiRequest extends HttpServlet {
     private ObjectMapper objectMapper = new ObjectMapper();
